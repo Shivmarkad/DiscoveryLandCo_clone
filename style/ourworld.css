@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+
+}
+
+.header{
+    border: 1px solid red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    margin-left: 10px;
+    border: 1px solid green;
+    height: 100px;
+    width: 300px;
+    margin-right: 5px;
+}
+.logo img{
+width: 100%;
+height: 80%;
+
+}
+
+.item{
+    border: 1px solid yellow;
+    height: 100px;
+    width: 300px;
+    margin-left : 20px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container{
+    border: 3px solid red;
+    margin-top: 20px;
+    display: flex;
+    width: 1400px;
+    height: 500px;
+}
+.grid-item{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+
+}
+
+.grid-item img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.grid-item1{
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 10px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+.grid-item1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container2{
+    border: 5px solid red;
+    margin-left: 20px;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+.text-img{
+    margin-top: 10px;
+    color: red;
+}
