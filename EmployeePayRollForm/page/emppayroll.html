@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee pay roll form</title>
+    <script src="emprl.js"></script>
+</head>
+
+<body>
+    <h1>Employee Payroll Form</h1>
+    <form class="form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="images">Profile image
+                <input type="radio" id = "images1" name="option">
+                <img src="" alt="Shreya">
+                <input type="radio" id = "images2" name="option">
+                <img src="" alt="Bhuvi">
+                <input type="radio" id = "images3" name="option">
+                <img src="" alt="Ramesh">
+                <input type="radio" id = "images4" name="option">
+                <img src="" alt="Suraj">
+            </label>
+        </div>
+        <div>
+            <label for="gender">Gender
+                <input type="radio" name="Gender" id="gender">
+                Male
+                <input type="radio" name="Gender" id="gender">
+                Female
+            </label>
+            </div>
+        <div>
+            <label for="dept">Department
+                <input type="checkbox" id="HR" name="dept"> HR
+                <input type="checkbox" id="Sales" name="dept">Sales
+                <input type="checkbox" name="dept">Finance
+                <input type="checkbox" name="dept">Engineer
+                <input type="checkbox" name="dept">Others
+            </label>
+        </div>
+        <div>
+            <label for="salary">Salary</label>
+            <select name="sal" id="sal">
+                <option value="20k">20K</option>
+                <option value="25k">25K</option>
+                <option value="30k">30K</option>
+            </select>
+        </div>
+        <label for="day">Date:</label>
+        <select id="day" name="date"></select>
+        <select name="month" id="month"></select>
+        <select name="year" id="year"></select><br>
+        <label for="note">Note:</label>
+        <input type="text" id="note" name="note" required><br>
+        <button>Cancle</button>
+        <button>Submit</button>
+        <button>Reset</button>
+        
+    </form>
+</body>
+
+</html>
