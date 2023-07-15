@@ -5,63 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>employee pay roll form</title>
-    <script src="emprl.js"></script>
+    <script src="../script/emprl.js"></script>
+    <link rel="stylesheet" href="../style/emprl.css">
 </head>
 
 <body>
-    <h1>Employee Payroll Form</h1>
+    <header class="header">
+        <h1>EMPLOYEE PAYROLL</h1>
+    </header>
     <form class="form">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-        <div>
-            <label for="images">Profile image
-                <input type="radio" id = "images1" name="option">
-                <img src="" alt="Shreya">
-                <input type="radio" id = "images2" name="option">
-                <img src="" alt="Bhuvi">
-                <input type="radio" id = "images3" name="option">
-                <img src="" alt="Ramesh">
-                <input type="radio" id = "images4" name="option">
-                <img src="" alt="Suraj">
-            </label>
-        </div>
-        <div>
-            <label for="gender">Gender
-                <input type="radio" name="Gender" id="gender">
-                Male
-                <input type="radio" name="Gender" id="gender">
-                Female
-            </label>
+        <h1>Employee Payroll Form</h1>
+        <div class="content">
+
+            <div class="name">
+                <label for="name">Name
+                    <input type="text" id="name" name="name" required>
+                </label>
             </div>
-        <div>
-            <label for="dept">Department
-                <input type="checkbox" id="HR" name="dept"> HR
-                <input type="checkbox" id="Sales" name="dept">Sales
-                <input type="checkbox" name="dept">Finance
-                <input type="checkbox" name="dept">Engineer
-                <input type="checkbox" name="dept">Others
-            </label>
+            <div class="profilepic">
+                <label for="images" class="inputfields">Profile image
+                    <input type="radio" id="images1" name="option">
+                    <img src="../assets/belowheader.jpg" alt="Shreya">
+                    <input type="radio" id="images2" name="option">
+                    <img src="../assets/belowheader2.jpg" alt="Bhuvi">
+                    <input type="radio" id="images3" name="option">
+                    <img src="../assets/belowheader3.jpg" alt="Ramesh">
+                    <input type="radio" id="images4" name="option">
+                    <img src="../assets/belowheader4.jpg" alt="Suraj">
+                </label>
+            </div>
+            <div>
+                <label for="gender">Gender
+                    <input type="radio" name="Gender" id="Male">
+                    Male
+                    <input type="radio" name="Gender" id="Female">
+                    Female
+                </label>
+            </div>
+            <div>
+                <label for="dept">Department
+                    <input type="checkbox" id="HR" name="dept"> HR
+                    <input type="checkbox" id="Sales" name="dept">Sales
+                    <input type="checkbox" name="dept">Finance
+                    <input type="checkbox" name="dept">Engineer
+                    <input type="checkbox" name="dept">Others
+                </label>
+            </div>
+            <div>
+                <label for="salary">Salary</label>
+                <select name="sal" id="sal">
+                    <option value="20k">20K</option>
+                    <option value="25k">25K</option>
+                    <option value="30k">30K</option>
+                </select>
+            </div>
+            <div>
+
+                <label for="day">Date</label>
+                
+                <select id="day" name="day"></select>
+                <select name="month" id="month"></select>
+                <select name="year" id="year"></select><br>
+            </div>
+            <div>
+                
+                <label for="note">Note</label>
+                <input type="text" id="note" name="note" required><br>
+            </div>
+            <div>
+                <button>Cancle</button>
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
         </div>
-        <div>
-            <label for="salary">Salary</label>
-            <select name="sal" id="sal">
-                <option value="20k">20K</option>
-                <option value="25k">25K</option>
-                <option value="30k">30K</option>
-            </select>
-        </div>
-        <label for="day">Date:</label>
-        <select id="day" name="date"></select>
-        <select name="month" id="month"></select>
-        <select name="year" id="year"></select><br>
-        <label for="note">Note:</label>
-        <input type="text" id="note" name="note" required><br>
-        <button>Cancle</button>
-        <button>Submit</button>
-        <button>Reset</button>
-        
+
     </form>
 </body>
 

@@ -1,0 +1,54 @@
+.header{
+    justify-content: center;
+    border: 2px solid red;
+    background-color: white;
+}
+body {
+    background-color: rgb(236, 238, 240);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.form{
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 600px;
+    height: 700px;
+}
+.form h1{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.content > * + * {
+    margin-left: 30px;
+    padding-top: 60px;
+    align-items: center;
+    display: flex;
+    box-sizing: content-box;
+}
+.name{
+    margin-left: 30px;
+}
+#name{
+    margin-left: 40px;
+}
+#name{
+    border: 2px solid rgb(212, 203, 203);
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+.profilepic img{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+  
+    border-radius: 70%;
+}
+label{
+    margin-right: 70px;
+    text-align: right;
+}
